@@ -1,0 +1,12 @@
+# Reflector — microk8s deployment
+# Chart: emberstack/reflector 7.x
+# Purpose: auto-mirror Secrets/ConfigMaps across namespaces via annotations
+
+reflector:
+  resources:
+    requests:
+      cpu: 10m
+      memory: 32Mi
+    limits:
+      cpu: 100m
+      memory: 64Mi

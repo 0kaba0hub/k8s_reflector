@@ -1,0 +1,10 @@
+apiVersion: v2
+name: reflector-wrapper
+description: Reflector for microk8s — auto-mirror Secrets and ConfigMaps across namespaces
+type: application
+version: 0.1.0
+appVersion: "7.1"
+dependencies:
+  - name: reflector
+    version: 7.1.288
+    repository: https://emberstack.github.io/helm-charts
